@@ -1,4 +1,4 @@
-name: Trading Bot Connector Binance Docs
+name: Trading Bot Binance Docs
 on:
   workflow_dispatch:
 
@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: trading-bot-software/trading-bot-connector-binance
+          repository: trading-bot-software/trading-bot-binance
           ref: gh-pages
           token: ${{ secrets.PAT_TOKEN }}
 
